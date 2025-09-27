@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('API de l intégration cloud pour e-commerce');
+  res.send('API de l\u00e9integration cloud pour e-commerce');
 });
 
 app.listen(PORT, () => {
