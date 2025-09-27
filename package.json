@@ -1,0 +1,14 @@
+{
+  "name": "integration-cloud-ecommerce",
+  "version": "1.0.0",
+  "description": "Intégration Cloud pour E-commerce",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "dotenv": "^8.2.0"
+  }
+}
